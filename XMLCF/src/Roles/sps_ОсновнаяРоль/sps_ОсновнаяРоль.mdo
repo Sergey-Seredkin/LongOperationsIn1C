@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c10c7f8-004b-4a5a-aa59-d95ed4431007">
+  <name>sps_ОсновнаяРоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sps основная роль</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f2ed60d3-9c85-474c-9cf3-f125438afe5e">
+  <name>sps_LongOperations</name>
+  <synonym>
+    <key>ru</key>
+    <value>Long operations</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cc16cf45-3421-486a-8017-adf7c32f5ade"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f7445372-5dce-4713-8653-e1729e317a21"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="196dc6c6-7e0c-41b7-a102-49ed983bb2c9"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="bd1a1f13-0427-48fe-bd42-94dbd7a2d873"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="01b4faae-924f-453e-b3a8-2d95ae69e2a2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c2efb197-d80d-4c9e-953d-2a053bc8f1f5"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7e06826b-f5cc-4260-92c9-1fe2a88f5f5e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>sps_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.sps_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="61ac30e9-9ecc-450d-b7b1-69e30661c1a9">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.sps_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.sps_ДлительныеОперации</commonModules>
+  <dataProcessors>DataProcessor.sps_ДлительныеОперации1</dataProcessors>
+  <dataProcessors>DataProcessor.sps_ДлительныеОперации2</dataProcessors>
+</mdclass:Configuration>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da64bf0a-a621-4c48-9dd3-70dec09e6e39">
+  <producedTypes>
+    <objectType typeId="543d7387-dbef-4e7f-94a1-88dc5c4a0b30" valueTypeId="728051ff-8b49-419c-b4d9-b55403bb5e8e"/>
+    <managerType typeId="7653bf18-f1f5-407f-a54f-047555793431" valueTypeId="e41af21a-35ce-495c-9042-67a7425991a2"/>
+  </producedTypes>
+  <name>sps_ДлительныеОперации1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительные операции 1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.sps_ДлительныеОперации1.Form.Форма</defaultForm>
+  <attributes uuid="ec2d528c-9f3d-4ff8-a095-72c84bed97a9">
+    <name>датаН</name>
+    <synonym>
+      <key>ru</key>
+      <value>начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="92f0d56b-972b-4276-abc3-f3cf297de7b3">
+    <name>датаК</name>
+    <synonym>
+      <key>ru</key>
+      <value>окончание</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="760b62ae-5e0a-451a-9372-ec611a31f365">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИ №1</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0009c8cf-8f36-4bc9-b5ae-667138a8186d">
+    <name>Потоков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потоков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f43acbe3-8490-4844-90bd-f56f22ed8c6e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
