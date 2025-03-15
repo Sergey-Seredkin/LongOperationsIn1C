@@ -6,4 +6,5 @@
     <value>Длительные операции функции</value>
   </synonym>
   <server>true</server>
+  <serverCall>true</serverCall>
 </mdclass:CommonModule>
