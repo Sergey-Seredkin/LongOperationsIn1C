@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e945d035-de35-49cb-89ec-6a7726cf42aa">
+  <producedTypes>
+    <objectType typeId="9f5c9b31-e82f-4606-b592-867d4b3bc3a8" valueTypeId="db4e7b7e-be77-4304-a6cf-3f4a3733c0ca"/>
+    <managerType typeId="9f717903-fcfc-4330-9ed6-c31397b2b7e8" valueTypeId="1b6d7e2b-006f-4ac8-b9b0-164388a42cd5"/>
+  </producedTypes>
+  <name>sps_ДлительныеОперации2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительные операции 2</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.sps_ДлительныеОперации2.Form.Форма</defaultForm>
+  <attributes uuid="387a157e-a246-4b38-9a03-46a8258fa544">
+    <name>датаН</name>
+    <synonym>
+      <key>ru</key>
+      <value>начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bfd8f8db-007d-46cf-915a-ec37109e8e24">
+    <name>датаК</name>
+    <synonym>
+      <key>ru</key>
+      <value>окончание</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="86481b80-da02-49e0-bae9-fc277486c624">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="93bf8406-5095-4b1d-aa80-d52569d951c4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

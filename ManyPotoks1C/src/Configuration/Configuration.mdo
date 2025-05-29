@@ -33,5 +33,6 @@
   <defaultRoles>Role.sps_ОсновнаяРоль</defaultRoles>
   <compatibilityMode>8.3.27</compatibilityMode>
   <roles>Role.sps_ОсновнаяРоль</roles>
-  <dataProcessors>DataProcessor.sps_Обработка</dataProcessors>
+  <dataProcessors>DataProcessor.sps_ДлительныеОперации1</dataProcessors>
+  <dataProcessors>DataProcessor.sps_ДлительныеОперации2</dataProcessors>
 </mdclass:Configuration>
